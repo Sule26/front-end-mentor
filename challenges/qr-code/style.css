@@ -19,7 +19,7 @@ body {
     justify-content: center;
 }
 
-.contanier {
+.container {
     background-color: white;
     border-radius: 20px;
     display:flex;
@@ -29,17 +29,17 @@ body {
     align-self: center;
 }
 
-.contanier-video {
+.container-image {
     border-radius: 15px;
 }
 
-.contanier-title {
+.container-title {
     font-weight: 700;
     margin: 20px 0;
     text-align: center;
 }
 
-.contanier-description {
+.container-description {
     color: hsl(220, 15%, 55%);
     margin: 20px 0;
     text-align: center;
@@ -57,7 +57,7 @@ body {
 
 
 @media screen and (max-width: 375px) {
-    .contanier {
+    .container {
         width: 80%;
     }
     
